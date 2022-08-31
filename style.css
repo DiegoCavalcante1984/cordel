@@ -1,0 +1,79 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Satisfy', cursive;
+}
+body,html{
+  height:100vh;
+  background-color:darkgray;
+}
+.header{
+  background-color:#000;
+  color:#FFF;
+  text-align: center;
+  padding-bottom:30px;
+}
+.header h1{
+  padding-top:30px;
+  font-variant: small-caps;
+  letter-spacing:8px;
+}
+.header h3 a{
+  text-decoration: none;
+  color: #FFF;
+  padding-bottom:30px;
+  letter-spacing:3px;
+  font-size:24px;
+  
+}
+.header h3 a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.back#img1{
+  background-color: #000;
+  color: #FFF;
+  background-image:url(fotos/flor.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  background-attachment: fixed;
+}
+.back#img2{
+  background-color: #000;
+  color: #FFF;
+  background-image:url(fotos/coraçao.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:left;
+  background-attachment: fixed;
+}
+.back#img1 p,.back#img2 p{
+  background-color: rgba(0, 0, 0, 0.49);
+  padding:10px;
+  width:400px;
+  width:230px;
+  
+}
+section {
+
+  padding:30px;
+  padding-top:10vh;
+  padding-bottom:10vh;
+  background-color: #FFF;
+}
+section p{
+  font-size: 26px;
+  width:230px;
+  
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  padding:10px;
+  background-color: #000;
+  color: #FFF;
+}
+.footer p{
+  padding-left:10px;
+}
